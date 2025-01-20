@@ -7,7 +7,15 @@
 }
 
 /* shared style  */
-
+.primary-btn {
+    width: 200px;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 /* header  */
 /* nav bar */
 .navbar {
@@ -53,14 +61,34 @@
     color: rgb(93, 88, 239);
 }
 .nav-contact {
-    border: none;
-    border-radius: 12px;
     background-color: rgb(254, 163, 1);
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    font-size: 1.25rem;
-    font-weight: 600;
-    padding: 10px 50px;
 }
 
 /* banner section  */
+.banner-container {
+    display: flex;
+    align-items: center;
+    max-width: 1160px;
+    margin: 1rem auto;
+    gap: 50px;
+}
+.banner-title {
+    color: rgb(17, 17, 17);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+#empower {
+    color: rgb(254, 163, 1);
+}
+#vision {
+    color: rgb(1, 172, 253);
+}
+.banner-description {
+    color: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+.banner-btn {
+    background-color: rgb(17, 17, 17);
+}
