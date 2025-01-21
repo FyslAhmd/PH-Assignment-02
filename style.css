@@ -63,6 +63,10 @@
 .nav-contact {
     background-color: rgb(254, 163, 1);
 }
+#hamburger-menu {
+    display: none;
+    font-size: 30px;
+}
 
 /* banner section  */
 .banner-container {
@@ -71,6 +75,9 @@
     max-width: 1160px;
     margin: 1rem auto;
     gap: 50px;
+}
+.banner-container img {
+    width: 100%;
 }
 .banner-title {
     color: rgb(17, 17, 17);
@@ -302,4 +309,66 @@ footer ul > li {
 .social {
     display: flex;
     gap: 10px;
+}
+.hide {
+    display: none;
+}
+#hide {
+    display: none;
+}
+
+/* responsive for mobile devices */
+@media screen and (max-width: 576px) {
+    .nav-title,
+    .nav-list,
+    .nav-contact,
+    .previous-forward,
+    .big-story-card {
+        display: none;
+    }
+    #hamburger-menu {
+        display: block;
+    }
+    .navbar {
+        padding:1rem;
+        margin: 0;
+        border-bottom: 1.5px solid rgb(254, 163, 1);
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+    .banner {
+        padding: 20px;
+        text-align: center;
+    }
+    .banner-title {
+        font-size: 2rem;
+    }
+    .curriculum-cards {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .curriculum-card {
+        padding: 35px 28px;
+    }
+    .section-title {
+        font-size: 1.75rem;
+        margin-bottom: 20px;
+    }
+    .stories-cards {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .stories-cards .card-title {
+        font-size: 0.6rem;
+        padding: 25px 40px 20px 22px;
+    }
+    .stories-last {
+        margin-top: 20px;
+    }
+    .footer-container {
+        flex-direction: column;
+        padding: 60px 20px;
+        gap: 32px;
+    }
 }
