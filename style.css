@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -16,6 +17,7 @@
     font-size: 1.25rem;
     font-weight: 600;
 }
+
 /* header  */
 /* nav bar */
 .navbar {
@@ -221,7 +223,7 @@
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: 700;
-    padding: 62px 68px 50px 38px;
+    padding: 42px 68px 50px 38px;
 }
 .stories-description {
     color: rgb(102, 102, 102);
@@ -240,7 +242,7 @@
     color: rgb(0, 0, 0);
     font-size: 1rem;
     font-weight: 900;
-    padding: 44px 54px 34px 38px;
+    padding: 24px 54px 34px 38px;
 }
 .stories-last {
     display: flex;
@@ -250,7 +252,27 @@
 .stories-last-btn {
     background-color: rgb(17, 17, 17);
 }
-
+.position-stories-date {
+    position: relative;
+    top: -25px;
+    left: 30px;
+}
+.stories-date {
+    border: none;
+    border-radius: 48px;
+    background-color: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.btn-green {
+    background-color: rgb(149, 178, 38);
+}
+.btn-blue {
+    background-color: rgb(93, 88, 240);
+}
 /* footer  */
 footer {
     color: rgb(255, 255, 255);
@@ -365,6 +387,15 @@ footer ul > li {
     }
     .stories-last {
         margin-top: 20px;
+    }
+    .position-stories-date {
+        top: -20px;
+        left: 20px;
+    }
+    .stories-date {
+        border-radius: 28px;
+        font-size: 0.6rem;
+        padding: 10px 20px;
     }
     .footer-container {
         flex-direction: column;
