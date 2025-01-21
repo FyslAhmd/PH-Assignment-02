@@ -243,3 +243,63 @@
 .stories-last-btn {
     background-color: rgb(17, 17, 17);
 }
+
+/* footer  */
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 63, 68);
+}
+.footer-container {
+    max-width: 1070px;
+    margin: 0 auto;
+    padding: 120px 0 170px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-1 {
+    max-width: 400px;
+}
+.footer-logo {
+    line-height: 35px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+.footer-1 img {
+    color: rgb(255, 255, 255);
+}
+.footer-title {
+    font-size: 2.65rem;
+    font-weight: 700;
+
+}
+.footer-description {
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+.middle-footer-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer ul > li {
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.last-footer-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.social {
+    display: flex;
+    gap: 10px;
+}
