@@ -103,7 +103,7 @@
     max-width: 1160px;
     margin: 0 auto;
 }
-.curriculum-title {
+.section-title {
     color: rgb(0, 0, 0);
     font-size: 3rem;
     font-weight: 700;
@@ -181,4 +181,65 @@
     font-size: 1.5rem;
     font-weight: 900;
     margin: 0 5px;
+}
+
+/* stories section  */
+.our-stories {
+    background: url("assets/bg.png"),linear-gradient(0deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    padding: 60px 0;
+}
+.our-stories-container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.stories-container {
+    display: flex;
+    gap: 1.1rem;
+}
+.stories-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.big-story-card {
+    max-width: 540px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.big-story-card img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.stories-title {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 62px 68px 50px 38px;
+}
+.stories-description {
+    color: rgb(102, 102, 102);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0px 68px 34px 38px;
+}
+.stories-cards .card {
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.stories-cards .card img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}.stories-cards .card-title {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 44px 54px 34px 38px;
+}
+.stories-last {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.stories-last-btn {
+    background-color: rgb(17, 17, 17);
 }
