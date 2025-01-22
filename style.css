@@ -85,6 +85,9 @@
 .banner-container img {
     width: 100%;
 }
+.banner-left {
+    max-width: 640px;
+}
 .banner-title {
     color: rgb(17, 17, 17);
     font-size: 3.5rem;
